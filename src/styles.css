@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.InnerCached {
+  border: solid 4px #03fc3d;
+  width: 250px;
+}
+
+.InnerNoCache {
+  border: solid 4px #ff0000;
+  width: 250px;
+}
+
+.FlexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.FlexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
